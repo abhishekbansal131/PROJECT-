@@ -88,49 +88,55 @@ img{
 
     margin-left:66px;
 }
-footer{
-    width: 100%;
-    height: 500px;
-    background-color: red;
-}
-.foot1{
-    display: flex;
-    justify-content:center;
-}
-.line1{
-    margin-top: 20px;
-    font-size: 23px;
-}
-.line2{
+
+
+.frist h3{
+    color: #29d9d5;
+ }
+
+ .frist{
+    padding: 20px;
+    text-align: center;
+    background-color: #0C373E;
+    color: white;
+ }
+ .frist p{
     margin-top: 10px;
-    display: block;
-    font-size: 40px;
+ }
+ .frist button:hover{
+    background-color: #29d9d5;
+    color: black;
+}
+ 
+ .frist button{
+    margin-top: 10px;
     margin-bottom: 10px;
-}
-.btn2{
-    margin-top: 15px;
-}
-.part1{
-    height: 240px;
-    /* background-color: blue; */
-    background-image: url('https://images.unsplash.com/photo-1525869811964-53594bfcb4b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fGJhY2tncm91bmQlMjBpbWFnZSUyMHdpdGglMjBwZXJzb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.part2{
-    display: flex;
-    background-color: black;
-}
-.f1{
-    width: 30%;
-    margin-left: 20px;
-    height: 260px;
-    /* background-color: black; */
-    color: white;
-}
-.line3{
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
+    background-color: transparent;
+ }
+ .frist h1{
     margin-top: 10px;
+ }
+.second{
+display: flex;
+justify-content: space-around;
+background-color: #010001;
+/* background-color: white; */
+color: white;
+}
+
+.second div{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.second input{
+    border-radius: 5px;
+    padding: 5px;
+}
+.second button:hover{
+    background-color: #29d9d5;
+    color: black;
+}
+.second button{
+    color:#29d9d5;
+    border: 1px solid #29d9d5;
 }
